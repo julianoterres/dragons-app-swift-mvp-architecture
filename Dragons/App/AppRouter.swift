@@ -6,4 +6,19 @@
 //  Copyright © 2019 Juliano Terres. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+class AppRouter {
+  
+  func buildMainScreen() -> UIViewController {
+    
+    let navigation = UINavigationController()
+    let dragonsList = DragonsListRouter().build()
+    
+    navigation.viewControllers = [dragonsList]
+    
+    return navigation
+    
+  }
+  
+}

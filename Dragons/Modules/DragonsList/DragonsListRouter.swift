@@ -6,4 +6,43 @@
 //  Copyright © 2019 Juliano Terres. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+// MARK: Methods of DragonsListRouterProtocol
+class DragonsListRouter: DragonsListRouterProtocol {
+  
+  weak var view: UIViewController?
+  
+  func build() -> UIViewController {
+    
+    let view = DragonsListView()
+    let presenter = DragonsListPresenter()
+    let router = DragonsListRouter()
+    let service = DragonsListService()
+    let network = Network()
+    let urlsApi = UrlsApi()
+    
+    view.presenter = presenter
+    presenter.view = view
+    presenter.router = router
+    presenter.service = service
+    router.view = view
+    service.presenter = presenter
+    service.network = network
+    service.urlsApi = urlsApi
+    
+    return view
+    
+  }
+  
+}
+
+// MARK: Methods of DragonsListPresenterToRouterProtocol
+extension DragonsListRouter: DragonsListPresenterToRouterProtocol {
+  
+  func goToScreenDetails(dragon: Dragon) {
+    let screenDetail = DragonsDetailRouter().build(dragon: dragon)
+    view?.navigationController?.pushViewController(screenDetail, animated: true)
+  }
+  
+}

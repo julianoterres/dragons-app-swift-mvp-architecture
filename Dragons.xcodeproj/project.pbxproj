@@ -19,6 +19,28 @@
 		E3B2B3FC228BBA78007326FE /* DragonsListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B2B3FB228BBA78007326FE /* DragonsListService.swift */; };
 		E3B2B3FE228BBA84007326FE /* DragonsListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B2B3FD228BBA84007326FE /* DragonsListRouter.swift */; };
 		E3B2B400228BBABE007326FE /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B2B3FF228BBABE007326FE /* AppRouter.swift */; };
+		E3B2B404228C75AD007326FE /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B2B403228C75AD007326FE /* Network.swift */; };
+		E3B2B407228C75C3007326FE /* NetworkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B2B406228C75C3007326FE /* NetworkProtocol.swift */; };
+		E3B2B40A228C75E5007326FE /* UrlsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B2B409228C75E5007326FE /* UrlsApi.swift */; };
+		E3B2B40C228C75F4007326FE /* UrlsApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B2B40B228C75F4007326FE /* UrlsApiProtocol.swift */; };
+		E3B2B412228C7935007326FE /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B2B411228C7935007326FE /* UIColorExtension.swift */; };
+		E3B2B414228C7971007326FE /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B2B413228C7971007326FE /* StringExtension.swift */; };
+		E3B2B416228C7989007326FE /* UIFontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B2B415228C7989007326FE /* UIFontExtension.swift */; };
+		E3B2B418228C79B8007326FE /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B2B417228C79B8007326FE /* UIViewExtension.swift */; };
+		E3B2B41A228C7AEE007326FE /* DragonsListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B2B419228C7AEE007326FE /* DragonsListProtocols.swift */; };
+		E3B2B420228C845E007326FE /* DragonsResponseApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B2B41F228C845E007326FE /* DragonsResponseApi.swift */; };
+		E3B2B422228C8470007326FE /* DragonsApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B2B421228C8470007326FE /* DragonsApi.swift */; };
+		E3B2B424228C8778007326FE /* Dragon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B2B423228C8778007326FE /* Dragon.swift */; };
+		E3B2B426228CB6B2007326FE /* DragonsListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B2B425228CB6B2007326FE /* DragonsListCell.swift */; };
+		E3B2B42A228CB974007326FE /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3B2B428228CB974007326FE /* Nunito-Bold.ttf */; };
+		E3B2B42B228CB974007326FE /* Nunito-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3B2B429228CB974007326FE /* Nunito-Regular.ttf */; };
+		E3B2B42D228CBE77007326FE /* DragonsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B2B42C228CBE77007326FE /* DragonsDetailView.swift */; };
+		E3B2B42F228CBED6007326FE /* DragonsDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B2B42E228CBED6007326FE /* DragonsDetailRouter.swift */; };
+		E3B2B431228CC033007326FE /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B2B430228CC033007326FE /* UIViewControllerExtension.swift */; };
+		E3B2B433228CC092007326FE /* UINavigationControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B2B432228CC092007326FE /* UINavigationControllerExtension.swift */; };
+		E3B2B435228CC34C007326FE /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B2B434228CC34C007326FE /* UIImageExtension.swift */; };
+		E3B2B437228CCD71007326FE /* DragonsDetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B2B436228CCD71007326FE /* DragonsDetailProtocols.swift */; };
+		E3B2B439228CCE59007326FE /* DragonsDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B2B438228CCE59007326FE /* DragonsDetailPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +70,28 @@
 		E3B2B3FB228BBA78007326FE /* DragonsListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonsListService.swift; sourceTree = "<group>"; };
 		E3B2B3FD228BBA84007326FE /* DragonsListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonsListRouter.swift; sourceTree = "<group>"; };
 		E3B2B3FF228BBABE007326FE /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		E3B2B403228C75AD007326FE /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		E3B2B406228C75C3007326FE /* NetworkProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProtocol.swift; sourceTree = "<group>"; };
+		E3B2B409228C75E5007326FE /* UrlsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlsApi.swift; sourceTree = "<group>"; };
+		E3B2B40B228C75F4007326FE /* UrlsApiProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlsApiProtocol.swift; sourceTree = "<group>"; };
+		E3B2B411228C7935007326FE /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		E3B2B413228C7971007326FE /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		E3B2B415228C7989007326FE /* UIFontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFontExtension.swift; sourceTree = "<group>"; };
+		E3B2B417228C79B8007326FE /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		E3B2B419228C7AEE007326FE /* DragonsListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonsListProtocols.swift; sourceTree = "<group>"; };
+		E3B2B41F228C845E007326FE /* DragonsResponseApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonsResponseApi.swift; sourceTree = "<group>"; };
+		E3B2B421228C8470007326FE /* DragonsApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonsApi.swift; sourceTree = "<group>"; };
+		E3B2B423228C8778007326FE /* Dragon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dragon.swift; sourceTree = "<group>"; };
+		E3B2B425228CB6B2007326FE /* DragonsListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonsListCell.swift; sourceTree = "<group>"; };
+		E3B2B428228CB974007326FE /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		E3B2B429228CB974007326FE /* Nunito-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Regular.ttf"; sourceTree = "<group>"; };
+		E3B2B42C228CBE77007326FE /* DragonsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonsDetailView.swift; sourceTree = "<group>"; };
+		E3B2B42E228CBED6007326FE /* DragonsDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonsDetailRouter.swift; sourceTree = "<group>"; };
+		E3B2B430228CC033007326FE /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		E3B2B432228CC092007326FE /* UINavigationControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UINavigationControllerExtension.swift; sourceTree = "<group>"; };
+		E3B2B434228CC34C007326FE /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		E3B2B436228CCD71007326FE /* DragonsDetailProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonsDetailProtocols.swift; sourceTree = "<group>"; };
+		E3B2B438228CCE59007326FE /* DragonsDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonsDetailPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +183,8 @@
 		E3B2B3E4228BB56C007326FE /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				E3B2B410228C78F4007326FE /* Extensions */,
+				E3B2B401228C759A007326FE /* Libraries */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -155,6 +201,7 @@
 		E3B2B3E6228BB579007326FE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E3B2B427228CB966007326FE /* Fonts */,
 				E3B2B3C8228BB4E6007326FE /* Assets.xcassets */,
 				E3B2B3CA228BB4E6007326FE /* LaunchScreen.storyboard */,
 			);
@@ -175,7 +222,10 @@
 		E3B2B3F5228BB9C5007326FE /* DragonsList */ = {
 			isa = PBXGroup;
 			children = (
+				E3B2B41B228C8427007326FE /* Model */,
+				E3B2B425228CB6B2007326FE /* DragonsListCell.swift */,
 				E3B2B3F9228BBA61007326FE /* DragonsListPresenter.swift */,
+				E3B2B419228C7AEE007326FE /* DragonsListProtocols.swift */,
 				E3B2B3FD228BBA84007326FE /* DragonsListRouter.swift */,
 				E3B2B3FB228BBA78007326FE /* DragonsListService.swift */,
 				E3B2B3F7228BBA4E007326FE /* DragonsListView.swift */,
@@ -186,8 +236,88 @@
 		E3B2B3F6228BB9D0007326FE /* DragonsDetail */ = {
 			isa = PBXGroup;
 			children = (
+				E3B2B438228CCE59007326FE /* DragonsDetailPresenter.swift */,
+				E3B2B436228CCD71007326FE /* DragonsDetailProtocols.swift */,
+				E3B2B42E228CBED6007326FE /* DragonsDetailRouter.swift */,
+				E3B2B42C228CBE77007326FE /* DragonsDetailView.swift */,
 			);
 			path = DragonsDetail;
+			sourceTree = "<group>";
+		};
+		E3B2B401228C759A007326FE /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				E3B2B402228C75A2007326FE /* Network */,
+				E3B2B408228C75D5007326FE /* UrlsApi */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		E3B2B402228C75A2007326FE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E3B2B403228C75AD007326FE /* Network.swift */,
+				E3B2B406228C75C3007326FE /* NetworkProtocol.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E3B2B408228C75D5007326FE /* UrlsApi */ = {
+			isa = PBXGroup;
+			children = (
+				E3B2B409228C75E5007326FE /* UrlsApi.swift */,
+				E3B2B40B228C75F4007326FE /* UrlsApiProtocol.swift */,
+			);
+			path = UrlsApi;
+			sourceTree = "<group>";
+		};
+		E3B2B410228C78F4007326FE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E3B2B413228C7971007326FE /* StringExtension.swift */,
+				E3B2B411228C7935007326FE /* UIColorExtension.swift */,
+				E3B2B415228C7989007326FE /* UIFontExtension.swift */,
+				E3B2B434228CC34C007326FE /* UIImageExtension.swift */,
+				E3B2B432228CC092007326FE /* UINavigationControllerExtension.swift */,
+				E3B2B430228CC033007326FE /* UIViewControllerExtension.swift */,
+				E3B2B417228C79B8007326FE /* UIViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E3B2B41B228C8427007326FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E3B2B41D228C8441007326FE /* Api */,
+				E3B2B41E228C8446007326FE /* Presentation */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E3B2B41D228C8441007326FE /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				E3B2B41F228C845E007326FE /* DragonsResponseApi.swift */,
+				E3B2B421228C8470007326FE /* DragonsApi.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		E3B2B41E228C8446007326FE /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				E3B2B423228C8778007326FE /* Dragon.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		E3B2B427228CB966007326FE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E3B2B428228CB974007326FE /* Nunito-Bold.ttf */,
+				E3B2B429228CB974007326FE /* Nunito-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +330,8 @@
 				E3B2B3BA228BB4E5007326FE /* Sources */,
 				E3B2B3BB228BB4E5007326FE /* Frameworks */,
 				E3B2B3BC228BB4E5007326FE /* Resources */,
+				E3B2B40E228C76AE007326FE /* SwiftLint */,
+				E3B2B40F228C76C3007326FE /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -217,7 +349,6 @@
 				E3B2B3CE228BB4E6007326FE /* Sources */,
 				E3B2B3CF228BB4E6007326FE /* Frameworks */,
 				E3B2B3D0228BB4E6007326FE /* Resources */,
-				E3B2B3E7228BB5F1007326FE /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -273,6 +404,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3B2B3CC228BB4E6007326FE /* LaunchScreen.storyboard in Resources */,
+				E3B2B42A228CB974007326FE /* Nunito-Bold.ttf in Resources */,
+				E3B2B42B228CB974007326FE /* Nunito-Regular.ttf in Resources */,
 				E3B2B3C9228BB4E6007326FE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,7 +420,25 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		E3B2B3E7228BB5F1007326FE /* Carthage */ = {
+		E3B2B40E228C76AE007326FE /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		E3B2B40F228C76C3007326FE /* Carthage */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -319,9 +470,29 @@
 				E3B2B3C2228BB4E5007326FE /* AppDelegate.swift in Sources */,
 				E3B2B3FA228BBA61007326FE /* DragonsListPresenter.swift in Sources */,
 				E3B2B400228BBABE007326FE /* AppRouter.swift in Sources */,
+				E3B2B40A228C75E5007326FE /* UrlsApi.swift in Sources */,
+				E3B2B422228C8470007326FE /* DragonsApi.swift in Sources */,
+				E3B2B418228C79B8007326FE /* UIViewExtension.swift in Sources */,
+				E3B2B424228C8778007326FE /* Dragon.swift in Sources */,
+				E3B2B439228CCE59007326FE /* DragonsDetailPresenter.swift in Sources */,
+				E3B2B41A228C7AEE007326FE /* DragonsListProtocols.swift in Sources */,
 				E3B2B3FE228BBA84007326FE /* DragonsListRouter.swift in Sources */,
+				E3B2B426228CB6B2007326FE /* DragonsListCell.swift in Sources */,
+				E3B2B433228CC092007326FE /* UINavigationControllerExtension.swift in Sources */,
+				E3B2B407228C75C3007326FE /* NetworkProtocol.swift in Sources */,
 				E3B2B3FC228BBA78007326FE /* DragonsListService.swift in Sources */,
+				E3B2B404228C75AD007326FE /* Network.swift in Sources */,
+				E3B2B420228C845E007326FE /* DragonsResponseApi.swift in Sources */,
+				E3B2B437228CCD71007326FE /* DragonsDetailProtocols.swift in Sources */,
+				E3B2B42D228CBE77007326FE /* DragonsDetailView.swift in Sources */,
+				E3B2B42F228CBED6007326FE /* DragonsDetailRouter.swift in Sources */,
+				E3B2B414228C7971007326FE /* StringExtension.swift in Sources */,
+				E3B2B412228C7935007326FE /* UIColorExtension.swift in Sources */,
+				E3B2B40C228C75F4007326FE /* UrlsApiProtocol.swift in Sources */,
 				E3B2B3F8228BBA4E007326FE /* DragonsListView.swift in Sources */,
+				E3B2B431228CC033007326FE /* UIViewControllerExtension.swift in Sources */,
+				E3B2B416228C7989007326FE /* UIFontExtension.swift in Sources */,
+				E3B2B435228CC34C007326FE /* UIImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,7 +659,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.julianoterres.Dragons;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -510,7 +681,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.julianoterres.Dragons;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
