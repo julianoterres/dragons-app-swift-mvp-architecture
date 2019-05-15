@@ -8,14 +8,14 @@
 
 import Foundation
 
-// MARK: Methods of DragonsDetailPresenterProtocol
+// MARK: Methods of Dragons Detail Presenter Protocol
 class DragonsDetailPresenter: DragonsDetailPresenterProtocol {
   
   var router: DragonsDetailPresenterToRouterProtocol?
   
 }
 
-// MARK: Methods of DragonsDetailViewToPresenterProtocol
+// MARK: Methods of Dragons Detail View To Presenter Protocol
 extension DragonsDetailPresenter: DragonsDetailViewToPresenterProtocol {
   
   func showAlert(greeting: String) {

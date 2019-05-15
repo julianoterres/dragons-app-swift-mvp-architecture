@@ -8,7 +8,7 @@
 
 import UIKit
 
-// MARK: Methods of DragonsListView
+// MARK: Methods of Dragons List View
 class DragonsListView: UIViewController {
   
   let loader = UIActivityIndicatorView()
@@ -75,7 +75,7 @@ class DragonsListView: UIViewController {
   
 }
 
-// MARK: Methods of DragonsListPresenterToViewProtocol
+// MARK: Methods of Dragons List Presenter To View Protocol
 extension DragonsListView: DragonsListPresenterToViewProtocol {
 
   func showDragons(dragonsList: [Dragon]) {
@@ -92,7 +92,7 @@ extension DragonsListView: DragonsListPresenterToViewProtocol {
   
 }
 
-// MARK: Methods of ErrorViewProtocol
+// MARK: Methods of Error View Protocol
 extension DragonsListView: ErrorViewProtocol {
   
   func didPressRetry() {

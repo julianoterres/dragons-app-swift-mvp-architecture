@@ -8,7 +8,7 @@
 
 import UIKit
 
-// MARK: Methods of DragonsDetailRouterProtocol
+// MARK: Methods of Dragons Detail Router Protocol
 class DragonsDetailRouter: DragonsDetailRouterProtocol {
   
   weak var view: UIViewController?
@@ -30,7 +30,7 @@ class DragonsDetailRouter: DragonsDetailRouterProtocol {
   
 }
 
-// MARK: Methods of DragonsDetailPresenterToRouterProtocol
+// MARK: Methods of Dragons Detail Presenter To Router Protocol
 extension DragonsDetailRouter: DragonsDetailPresenterToRouterProtocol {
   
   func showAlert(greeting: String) {

@@ -8,7 +8,7 @@
 
 import Foundation
 
-// MARK: Methods of DragonsListServiceProtocol
+// MARK: Methods of Dragons List Service Protocol
 class DragonsListService: DragonsListServiceProtocol {
   
   weak var presenter: DragonsListServiceToPresenterProtocol?
@@ -17,7 +17,7 @@ class DragonsListService: DragonsListServiceProtocol {
 
 }
 
-// MARK: Methods of DragonsListPresenterToServiceProtocol
+// MARK: Methods of Dragons List Presenter To Service Protocol
 extension DragonsListService: DragonsListPresenterToServiceProtocol {
   
   func fetchDragons() {

@@ -10,15 +10,7 @@ import UIKit
 
 extension UIColor {
   
-  static var lineSeparator: UIColor {
-    return "#C0C0C5".contertToColor
-  }
-  
   static var backButton: UIColor {
-    return "#2863EC".contertToColor
-  }
-  
-  static var button: UIColor {
     return "#2863EC".contertToColor
   }
   
@@ -26,12 +18,20 @@ extension UIColor {
     return "#F5F6F8".contertToColor
   }
   
-  static var title: UIColor {
-    return "#2C2D2F".contertToColor
+  static var button: UIColor {
+    return "#2863EC".contertToColor
+  }
+  
+  static var lineSeparator: UIColor {
+    return "#C0C0C5".contertToColor
   }
   
   static var text: UIColor {
     return "#5C5C5C".contertToColor
+  }
+  
+  static var title: UIColor {
+    return "#2C2D2F".contertToColor
   }
   
 }

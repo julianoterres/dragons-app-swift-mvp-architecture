@@ -14,7 +14,7 @@ protocol DragonsListViewToPresenterProtocol: class {
   func goToScreenDetails(dragon: Dragon)
 }
 
-// MARK: Methods of DragonsListPresenterProtocol
+// MARK: Methods of Dragons List Presenter Protocol
 protocol DragonsListPresenterProtocol: class {
   var view: DragonsListPresenterToViewProtocol? { get set }
   var router: DragonsListPresenterToRouterProtocol? { get set }
@@ -38,7 +38,7 @@ protocol DragonsListPresenterToViewProtocol: class {
   func showError()
 }
 
-// MARK: Methods of DragonsListServiceProtocol
+// MARK: Methods of Dragons List Service Protocol
 protocol DragonsListServiceProtocol: class {
   var network: NetworkProtocol? { get set }
   var urlsApi: UrlsApiProtocol? { get set }
@@ -51,7 +51,7 @@ protocol DragonsListServiceToPresenterProtocol: class {
   func fetchedFail()
 }
 
-// MARK: Methods of DragonsListRouterProtocol
+// MARK: Methods of Dragons List Router Protocol
 protocol DragonsListRouterProtocol: class {
   var view: UIViewController? { get set }
   func build() -> UIViewController

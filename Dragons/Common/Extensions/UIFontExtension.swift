@@ -18,16 +18,8 @@ extension UIFont {
     return UIFont(name: "Nunito-Bold", size: 15)!
   }
   
-  static var fontBold12: UIFont {
-    return UIFont(name: "Nunito-Bold", size: 12)!
-  }
-  
   static var fontRegular14: UIFont {
     return UIFont(name: "Nunito-Regular", size: 14)!
-  }
-  
-  static var fontRegular11: UIFont {
-    return UIFont(name: "Nunito-Regular", size: 11)!
   }
   
 }

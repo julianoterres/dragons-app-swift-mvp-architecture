@@ -8,7 +8,7 @@
 
 import Foundation
 
-// MARK: Methods of DragonsListPresenterProtocol
+// MARK: Methods of Dragons List Presenter Protocol
 class DragonsListPresenter: DragonsListPresenterProtocol {
   
   weak var view: DragonsListPresenterToViewProtocol?
@@ -17,7 +17,7 @@ class DragonsListPresenter: DragonsListPresenterProtocol {
   
 }
 
-// MARK: Methods of DragonsListViewToPresenterProtocol
+// MARK: Methods of Dragons List View To Presenter Protocol
 extension DragonsListPresenter: DragonsListViewToPresenterProtocol {
   
   func fetchDragons() {
@@ -30,7 +30,7 @@ extension DragonsListPresenter: DragonsListViewToPresenterProtocol {
   
 }
 
-// MARK: Methods of DragonsListServiceToPresenterProtocol
+// MARK: Methods of Dragons List Service To Presenter Protocol
 extension DragonsListPresenter: DragonsListServiceToPresenterProtocol {
   
   func fetchedDragons(dragonsApi: DragonsResponseApi) {

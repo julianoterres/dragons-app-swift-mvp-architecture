@@ -204,8 +204,8 @@
 		E3B2B3E6228BB579007326FE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E3B2B427228CB966007326FE /* Fonts */,
 				E3B2B3C8228BB4E6007326FE /* Assets.xcassets */,
+				E3B2B427228CB966007326FE /* Fonts */,
 				E3B2B3CA228BB4E6007326FE /* LaunchScreen.storyboard */,
 			);
 			path = Resources;

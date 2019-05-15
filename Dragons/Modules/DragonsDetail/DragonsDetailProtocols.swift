@@ -13,7 +13,7 @@ protocol DragonsDetailViewToPresenterProtocol: class {
   func showAlert(greeting: String)
 }
 
-// MARK: Methods of DragonsListPresenterProtocol
+// MARK: Methods of Dragons Detail Presenter Protocol
 protocol DragonsDetailPresenterProtocol: class {
   var router: DragonsDetailPresenterToRouterProtocol? { get set }
 }
@@ -23,7 +23,7 @@ protocol DragonsDetailPresenterToRouterProtocol: class {
   func showAlert(greeting: String)
 }
 
-// MARK: Methods of DragonsListRouterProtocol
+// MARK: Methods of Dragons Detail Router Protocol
 protocol DragonsDetailRouterProtocol: class {
   var view: UIViewController? { get set }
   func build(dragon: Dragon) -> UIViewController

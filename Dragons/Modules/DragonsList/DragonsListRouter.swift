@@ -8,7 +8,7 @@
 
 import UIKit
 
-// MARK: Methods of DragonsListRouterProtocol
+// MARK: Methods of Dragons List Router Protocol
 class DragonsListRouter: DragonsListRouterProtocol {
   
   weak var view: UIViewController?
@@ -37,7 +37,7 @@ class DragonsListRouter: DragonsListRouterProtocol {
   
 }
 
-// MARK: Methods of DragonsListPresenterToRouterProtocol
+// MARK: Methods of Dragons List Presenter To Router Protocol
 extension DragonsListRouter: DragonsListPresenterToRouterProtocol {
   
   func goToScreenDetails(dragon: Dragon) {

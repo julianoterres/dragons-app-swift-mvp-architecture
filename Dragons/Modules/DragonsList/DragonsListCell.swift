@@ -8,7 +8,7 @@
 
 import UIKit
 
-// MARK: Methods of DragonsListCell
+// MARK: Methods of Dragons List Cell
 class DragonsListCell: UITableViewCell {
   
   let nameLabel = UILabel()

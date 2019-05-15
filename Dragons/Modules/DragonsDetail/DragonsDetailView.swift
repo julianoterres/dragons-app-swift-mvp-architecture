@@ -9,7 +9,7 @@
 import UIKit
 import Kingfisher
 
-// MARK: Methods of DragonsDetailView
+// MARK: Methods of Dragons Detail View
 class DragonsDetailView: UIViewController {
   
   let scrollView = UIScrollView()
