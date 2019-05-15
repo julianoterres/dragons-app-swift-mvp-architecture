@@ -41,6 +41,7 @@
 		E3B2B435228CC34C007326FE /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B2B434228CC34C007326FE /* UIImageExtension.swift */; };
 		E3B2B437228CCD71007326FE /* DragonsDetailProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B2B436228CCD71007326FE /* DragonsDetailProtocols.swift */; };
 		E3B2B439228CCE59007326FE /* DragonsDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B2B438228CCE59007326FE /* DragonsDetailPresenter.swift */; };
+		E3B2B43D228CD295007326FE /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B2B43C228CD295007326FE /* ErrorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +93,7 @@
 		E3B2B434228CC34C007326FE /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 		E3B2B436228CCD71007326FE /* DragonsDetailProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonsDetailProtocols.swift; sourceTree = "<group>"; };
 		E3B2B438228CCE59007326FE /* DragonsDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragonsDetailPresenter.swift; sourceTree = "<group>"; };
+		E3B2B43C228CD295007326FE /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 		E3B2B3E4228BB56C007326FE /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				E3B2B43A228CD25C007326FE /* Components */,
 				E3B2B410228C78F4007326FE /* Extensions */,
 				E3B2B401228C759A007326FE /* Libraries */,
 			);
@@ -318,6 +321,22 @@
 				E3B2B429228CB974007326FE /* Nunito-Regular.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E3B2B43A228CD25C007326FE /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E3B2B43B228CD28B007326FE /* ErrorView */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E3B2B43B228CD28B007326FE /* ErrorView */ = {
+			isa = PBXGroup;
+			children = (
+				E3B2B43C228CD295007326FE /* ErrorView.swift */,
+			);
+			path = ErrorView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -474,6 +493,7 @@
 				E3B2B422228C8470007326FE /* DragonsApi.swift in Sources */,
 				E3B2B418228C79B8007326FE /* UIViewExtension.swift in Sources */,
 				E3B2B424228C8778007326FE /* Dragon.swift in Sources */,
+				E3B2B43D228CD295007326FE /* ErrorView.swift in Sources */,
 				E3B2B439228CCE59007326FE /* DragonsDetailPresenter.swift in Sources */,
 				E3B2B41A228C7AEE007326FE /* DragonsListProtocols.swift in Sources */,
 				E3B2B3FE228BBA84007326FE /* DragonsListRouter.swift in Sources */,

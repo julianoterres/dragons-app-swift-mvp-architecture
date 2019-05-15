@@ -35,6 +35,7 @@ protocol DragonsListPresenterToServiceProtocol: class {
 protocol DragonsListPresenterToViewProtocol: class {
   var presenter: DragonsListViewToPresenterProtocol? { get set }
   func showDragons(dragonsList: [Dragon])
+  func showError()
 }
 
 // MARK: Methods of DragonsListServiceProtocol

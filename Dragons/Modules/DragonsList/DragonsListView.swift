@@ -13,6 +13,7 @@ class DragonsListView: UIViewController {
   
   let loader = UIActivityIndicatorView()
   let tableView = UITableView()
+  let errorView = ErrorView()
   
   var presenter: DragonsListViewToPresenterProtocol?
   var dragons: [Dragon] = []
@@ -33,6 +34,7 @@ class DragonsListView: UIViewController {
   
   func addElementsInScreen() {
     addLoader()
+    addErrorView()
     addTableView()
   }
   
@@ -44,6 +46,14 @@ class DragonsListView: UIViewController {
     loader.addConstraint(attribute: .centerY, alignElement: view, alignElementAttribute: .centerY, constant: 0)
     loader.addConstraint(attribute: .height, alignElement: nil, alignElementAttribute: .notAnAttribute, constant: 20)
     loader.addConstraint(attribute: .width, alignElement: nil, alignElementAttribute: .notAnAttribute, constant: 20)
+  }
+  
+  func addErrorView() {
+    view.addSubview(errorView)
+    errorView.addConstraint(attribute: .centerX, alignElement: view, alignElementAttribute: .centerX, constant: 0)
+    errorView.addConstraint(attribute: .centerY, alignElement: view, alignElementAttribute: .centerY, constant: 0)
+    errorView.isHidden = true
+    errorView.setup(title: "Oops! We had an unforeseen!", text: "Unfortunately we were unable to process\nyour request, please try again.", delegate: self)
   }
   
   func addTableView() {
@@ -71,7 +81,24 @@ extension DragonsListView: DragonsListPresenterToViewProtocol {
   func showDragons(dragonsList: [Dragon]) {
     dragons = dragonsList
     tableView.reloadData()
+    errorView.isHidden = true
     tableView.isHidden = false
+  }
+  
+  func showError() {
+    tableView.isHidden = true
+    errorView.isHidden = false
+  }
+  
+}
+
+// MARK: Methods of ErrorViewProtocol
+extension DragonsListView: ErrorViewProtocol {
+  
+  func didPressRetry() {
+    errorView.isHidden = true
+    tableView.isHidden = true
+    presenter?.fetchDragons()
   }
   
 }

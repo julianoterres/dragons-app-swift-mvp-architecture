@@ -66,7 +66,7 @@ extension DragonsListPresenter: DragonsListServiceToPresenterProtocol {
   }
   
   func fetchedFail() {
-    
+    view?.showError()
   }
   
 }

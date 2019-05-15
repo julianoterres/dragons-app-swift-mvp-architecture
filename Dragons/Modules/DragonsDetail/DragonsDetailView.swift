@@ -100,8 +100,10 @@ class DragonsDetailView: UIViewController {
   func addButtonGreeting() {
     scrollView.addSubview(buttonGreeting)
     buttonGreeting.setTitle("Make Greeting", for: .normal)
+    buttonGreeting.setTitleColor(.white, for: .normal)
     buttonGreeting.backgroundColor = .button
     buttonGreeting.layer.cornerRadius = 10
+    buttonGreeting.titleLabel?.font = .fontBold15
     buttonGreeting.addTarget(self, action: #selector(didPressButtonGreeting), for: .touchUpInside)
     buttonGreeting.addConstraint(attribute: .top, alignElement: descriptionLabel, alignElementAttribute: .bottom, constant: 30)
     buttonGreeting.addConstraint(attribute: .bottom, alignElement: scrollView, alignElementAttribute: .bottom, constant: 30)
