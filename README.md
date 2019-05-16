@@ -2,13 +2,23 @@
 
 Hello! This is steps to run the Dragons App in your Xcode
 
+![Alt Text](https://media.giphy.com/media/jru96HjMroASpfXEz8/giphy.gif)	
+
 ## Architecture
 
-This project was building using the MPV and Clean code
+This project was building using the MVP and Clean code. I used the MVP with all files in modules that need has all MVP structure, how Dragons List and I used a some files to MVP structure in Dragons Detail screen, because in this screen not need all files to build this screen.
 
 ## Unit Tests
 
-This project use the Quick/Nimble to make a tests
+This project use the Quick/Nimble to make a tests and the coverage is 60.9%
+
+## Third-party libraries
+
+**Alamofire** - Is a lib to make requests to API. I used this library, because is the a most used library by iOS community, and because this lib receive many updates constantly and you can calls to API easier and have many options ready to used in many situacions.
+
+**Kingfisher** - Is a lib that load images from URL, I used this lib because with she, you get load and maintain images caches easier.
+
+**Quick/Nimble** - Is a lib used to make unit tests, with she, you can write tests that be easier to read and understand what happen in test content.
 
 ## Clone repository
 
